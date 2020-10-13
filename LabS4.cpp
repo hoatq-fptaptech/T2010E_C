@@ -2,8 +2,10 @@
 int main(){
 	int n;
 	do{
+		//int y=0;
 		printf("Nhap so nguyen duong: ");
 		scanf("%d",&n);
+		//y++;
 	}while(n < 0);
 	// di tiep neu n>0
 	int s =1 ;
