@@ -17,5 +17,25 @@ int main(){
 		}
 	}		
 	// max
-	printf("Max: %d",max);
+	printf("Max: %d\n",max);
+	
+	// tim so khong phai so lon nhat
+	int max2 = max;
+	for(int i=0;i<n;i++){
+		if(arr[i]<max){
+			max2 = arr[i];
+			break;
+		}
+	}
+	if(max2 == max){
+		printf("Mang toan bo so giong nhau");
+	}else{
+		for(int i=0;i<n;i++){
+			if(max2<arr[i]&& arr[i]<max){
+				max2= arr[i];
+			}
+		}
+		printf("Max 2: %d",max2);
+	}
+	
 }
