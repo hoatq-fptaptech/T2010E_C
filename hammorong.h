@@ -55,7 +55,27 @@ void NhapMang(int arr[],int n){
 		scanf("%d",&arr[i]);
 	}
 }
-
+void SapXepMang(int arr[],int n,int t){
+	// t=1 sap xep be ->lon
+	// t=0 sap xep lon ->be
+	for(int i=0;i<n-1;i++){
+		for(int j=0;j<n-i-1;j++){
+			if(t==1){
+				if(arr[j]> arr[j+1]){
+					int tmp = arr[j];
+					arr[j] = arr[j+1];
+					arr[j+1] = tmp;
+				}
+			}else{
+				if(arr[j] < arr[j+1]){
+					int tmp = arr[j];
+					arr[j] = arr[j+1];
+					arr[j+1] = tmp;
+				}
+			}
+		}
+	}
+}
 
 
 

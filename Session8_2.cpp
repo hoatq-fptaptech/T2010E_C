@@ -6,7 +6,7 @@ int main(){
 	NhapMang(arr,5);
 	InMang(arr,5);
 	
-	// Nhap va in mang 7 so nguyen
+	// Nhap va in mang 7 so nguyen 
 	int arr2[7];
 	NhapMang(arr2,7);
 	InMang(arr2,7);
