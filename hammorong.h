@@ -77,13 +77,12 @@ void SapXepMang(int arr[],int n,int t){
 	}
 }
 
-
-
-
-
-
-
-
+// goi y assignment 8- 1
+int TimSNTTiepTheo(int n){
+	for(int i=n+1;true;i++){
+		// tim di...
+	}
+}
 
 
 
