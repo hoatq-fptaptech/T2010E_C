@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-	int arr[8] = {0,4,6,7,9,10,15,18};
+	int arr[8] = {0,4,6,7,9,10,15,18}; // mang n so nguyen, nhap 1 so x can tim
 	int s=5;// so can tim
 	int flag = 0;// co` bao hieu tim thay
 	int l = 0;// vi tri bien trai
