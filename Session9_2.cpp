@@ -16,7 +16,7 @@ int main(){
 	strcat(str2,str1);// <=> str2=str2+str1
 	printf("str1: %s\n",str1); // helloworld
 	printf("str2: %s\n",str2);	// worldhelloworld
-	printf("----\n");
+	printf("----\n"); 
 	strcat(str1,str2);// str1=str1+str2;=>helloworldworldhelloworld
 	//strcat(str1,str1);//str1= str1+str1;helloworldworldhelloworldhelloworldworldhelloworld
 	printf("str1: %s\n",str1); // helloworldworldhelloworldhelloworldworldhelloworld
