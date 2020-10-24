@@ -14,7 +14,7 @@ int main(){
 	int t;
 	scanf("%d",&t);
 	a = (int *)realloc(a,(t+5)*sizeof(int));
-	for(int i=5;i<t+5;i++){
+	for(int i=5;i<t+5;i++){ 
 		printf("nhap gt thu %d:",i);
 		//scanf("%d",&a[i]);
 		scanf("%d",(a+i));
